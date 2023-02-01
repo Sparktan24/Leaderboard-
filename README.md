@@ -220,9 +220,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Connection with API will be implemented soon]**
+- [ ] **[Super nice styles will be added in the future]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
