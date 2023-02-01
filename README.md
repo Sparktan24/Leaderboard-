@@ -24,10 +24,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+ <!--  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/> -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Leaderboard Project</b></h3>
 
 </div>
 
@@ -57,11 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Leaderboard Projec] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Leaderboard Projec]** is a web where the user can display scores in a list and see who is winning.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,21 +70,23 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
+    <li><a href="">HTML</a></li>
+    <li><a href="">CSS</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="">N/A</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="">N/A</a></li>
   </ul>
 </details>
 
@@ -94,11 +94,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Leaderboard allow user to save their scores]**
+- **[Leaderboard allow users to check all scores an see who is winning]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,15 +105,13 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](Coming soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -134,8 +129,14 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+To get a local copy up and running follow these simple example steps.
 
+<ul>
+    <li>Go to this <a href="https://github.com/Sparktan24/Leaderboard-/tree/main">link</a></li>
+    <li>In your command terminal go to the directory where you want to clone the repository.</li>
+    <li>Clone the project <code>git clone git@github.com:Sparktan24/Leaderboard-.git</code>.</li>
+    <li>Open the cloned repository with your prefered editor.</li>
+  </ul>
 <!--
 Example commands:
 
@@ -143,11 +144,14 @@ Example commands:
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
+
 --->
 
 ### Install
 
-Install this project with:
+<ul>
+  <li>Run <code>npm install</code> to install all dev dependencies for Linters, Webpack & Babel.</li>
+</ul>
 
 <!--
 Example command:
@@ -162,6 +166,8 @@ Example command:
 
 To run the project, execute the following command:
 
+<ul>Run <code>npm run start</code> in your command terminal.</ul>
+
 <!--
 Example command:
 
@@ -170,9 +176,9 @@ Example command:
 ```
 --->
 
-### Run tests
+<!-- ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -182,9 +188,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -200,15 +206,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Jesus Molina**
 
 - GitHub: [@Sparktan24](https://github.com/Sparktan24)
 - Twitter: [@Sparktan1](https://twitter.com/Sparktan1)
 - LinkedIn: [Jesus Molina](https://www.linkedin.com/in/jesus-molina-2b104424a/)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,11 +218,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Connection with API will be implemented soon]**
+- [ ] **[Super nice styles will be added in the future]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
