@@ -5,7 +5,6 @@ const username = document.querySelector('#name');
 const score = document.querySelector('#score');
 
 const addToDOM = (user, score) => {
-  console.log('enters');
   const scoreLi = document.createElement('li');
   scoreLi.innerHTML = `${user}: ${score}`;
   scoreLi.classList.add('score');
