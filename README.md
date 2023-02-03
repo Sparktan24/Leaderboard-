@@ -57,9 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard Projec <a name="about-project"></a>
+# 📖 Leaderboard Project <a name="about-project"></a>
 
-**Leaderboard Projec** is a web where the user can display scores in a list and see who is winning, it saves and displai that information making calls to an API.
+**Leaderboard Project** is a web where the user can display scores in a list and see who is winning, it saves and displai that information making calls to an API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -92,17 +92,15 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Leaderboard allow user to save their scores]**
-- **[Leaderboard allow users to check all scores an see who is winning]**
-- **[Connection with an API]**
+- **Leaderboard allow user to save their scores**
+- **Leaderboard allow users to check all scores and see who is winning**
+- **Connection with an API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](Coming soon)
 
@@ -117,6 +115,10 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
+<ul>
+  <li>A working computer.</li>
+</ul>
 
 <!--
 Example command:
@@ -197,11 +199,11 @@ Example:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+<!-- ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Super nice styles will be added in the future]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
 
@@ -209,7 +211,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Sparktan24/Leaderboard-/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,9 +219,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project feel free to frok it and use it as you wish.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,9 +227,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for providing the initial wireframe to build this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,15 +235,13 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Can I use the project for any purpose?**
 
-- **[Question_1]**
+  - Yes, you can use and modify this project for anything you wish as long as you give the corresponding credit.
 
-  - [Answer_1]
+- **Where is the data that i'm saving?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - All data is being saved in and API, if you wish to create your own game list visit this <a href="https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,7 +250,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
