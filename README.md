@@ -235,8 +235,6 @@ I would like to thank Microverse for providing the initial wireframe to build th
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **Can I use the project for any purpose?**
 
   - Yes, you can use and modify this project for anything you wish as long as you give the corresponding credit.
