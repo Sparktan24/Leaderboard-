@@ -41,3 +41,10 @@ li:nth-child(even) {
   width: 100px;
   align-self: flex-end;
 }
+
+#form {
+  display: inherit;
+  flex-direction: inherit;
+  gap: inherit;
+  min-width: inherit;
+}
