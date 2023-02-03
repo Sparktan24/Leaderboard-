@@ -57,9 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard Projec <a name="about-project"></a>
+# 📖 Leaderboard Project <a name="about-project"></a>
 
-**Leaderboard Projec** is a web where the user can display scores in a list and see who is winning, it saves and displai that information making calls to an API.
+**Leaderboard Project** is a web where the user can display scores in a list and see who is winning, it saves and displai that information making calls to an API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
