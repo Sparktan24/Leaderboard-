@@ -5,16 +5,24 @@ const username = document.querySelector('#name');
 const score = document.querySelector('#score');
 
 const addToDOM = (user, score) => {
+  console.log('enters');
   const scoreLi = document.createElement('li');
   scoreLi.innerHTML = `${user}: ${score}`;
   scoreLi.classList.add('score');
-  document.querySelector('.scores_list').appendChild(scoreLi);
+  document.querySelector('.scores-table').appendChild(scoreLi);
+};
+
+const addToAPI = async (user, score) => {
+  const { data, status } = await postScore(user, score);
+  if (status !== 201) return `Error ${status}: ${data.message}`;
+  addToDOM(user, score);
+  return { data, status };
 };
 
 form.onsubmit = (e) => {
   e.preventDefault();
   const scoreUserName = username.value;
   const scoreValue = score.value;
-  addToDOM(scoreUserName, scoreValue);
+  addToAPI(scoreUserName, scoreValue);
   form.reset();
 };
