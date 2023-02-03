@@ -57,15 +57,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard Projec] <a name="about-project"></a>
+# 📖 Leaderboard Projec <a name="about-project"></a>
 
-**[Leaderboard Projec]** is a web where the user can display scores in a list and see who is winning.
+**Leaderboard Projec** is a web where the user can display scores in a list and see who is winning, it saves and displai that information making calls to an API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -96,6 +94,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[Leaderboard allow user to save their scores]**
 - **[Leaderboard allow users to check all scores an see who is winning]**
+- **[Connection with an API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,30 +136,12 @@ To get a local copy up and running follow these simple example steps.
     <li>Clone the project <code>git clone git@github.com:Sparktan24/Leaderboard-.git</code>.</li>
     <li>Open the cloned repository with your prefered editor.</li>
   </ul>
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
-
---->
 
 ### Install
 
 <ul>
-  <li>Run <code>npm install</code> to install all dev dependencies for Linters, Webpack & Babel.</li>
+  In terminal pointing at the project address run <code>npm intall</code> to install all necessary packages.
 </ul>
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
@@ -218,7 +199,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Connection with API will be implemented soon]**
 - [ ] **[Super nice styles will be added in the future]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
