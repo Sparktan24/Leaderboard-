@@ -115,7 +115,27 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://webpack-repo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_refreshButton_handler_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/refreshButton_handler.js */ \"./src/modules/refreshButton_handler.js\");\n\n\n/*\nfetch('https://jsonplaceholder.typicode.com/todos/1') //  The Response object, in turn, does not directly contain the actual JSON response body but is instead a representation of the entire HTTP response\n  .then(response => response.json()) //  extract the JSON body content from the Response object\n  .then(json => console.log(json));\n  */\n\n\n//# sourceURL=webpack://webpack-repo/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/api.js":
+/*!****************************!*\
+  !*** ./src/modules/api.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst apiURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/OXZXZC0f8zbkv7ApEb36/scores/';\nconst apiHeaders = {\n  headers: {\n    'content-type': 'application/json',\n  },\n};\n\nconst getScores = async () => {\n  const resFetch = await fetch(apiURL);\n  const data = await resFetch.json();\n  const stat = resFetch.status;\n  if (stat !== 200) return 'Error';\n  return { data, stat };\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getScores);\n\n\n//# sourceURL=webpack://webpack-repo/./src/modules/api.js?");
+
+/***/ }),
+
+/***/ "./src/modules/refreshButton_handler.js":
+/*!**********************************************!*\
+  !*** ./src/modules/refreshButton_handler.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api.js */ \"./src/modules/api.js\");\n\n\nconst refreshButton = document.querySelector('.refresh_button');\n\nconst refreshScores = async () => {\n  const { data, status } = await (0,_api_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n  if (status !== 200) return null;\n\n  const scoreList = document.querySelector('.scores-table');\n  scoreList.innerHTML = '';\n  data.result.forEach((e) => {\n    const score = document.createElement('li');\n    score.classList.add('score');\n    score.innerHTML = `${e.user}:${e.score}`;\n    scoreList.appendChild(score);\n  });\n  return scoreList;\n};\n\nrefreshButton.onclick = () => refreshScores();\n\n\n//# sourceURL=webpack://webpack-repo/./src/modules/refreshButton_handler.js?");
 
 /***/ })
 
